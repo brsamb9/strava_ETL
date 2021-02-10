@@ -16,7 +16,7 @@ and place the relevant parameters into the settings.py file. ('code' is in step 
 
 2) Grab access token by placing the following hyperlink into browser to get code w/ scope (replacing client id and redirect uri)
 <br><br>
-https://www.strava.com/oauth/authorize?client_id=[CLIENT-ID]&response_type=code&redirect_uri=[REDIRECT_URI]exchange_token&approval_prompt=force&scope=profile:read_all,activity:read_all
+https://www.strava.com/oauth/authorize?client_id=[CLIENT-ID]&response_type=code&redirect_uri=[REDIRECT_URI]/exchange_token&approval_prompt=force&scope=profile:read_all,activity:read_all
 <br><br>
 to grab the code in the hyperlink after you press authenicate. Keep that saved until you run the script, which will prompt for the code (only happens for the first time w/o strava_tokens.json file - else you'll have to repeat the process).
 
